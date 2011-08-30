@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style parent="@android:style/Theme.Light" name="Light">
+		<item name="android:windowTitleSize">50px</item>
+		<item name="android:windowTitleStyle">@style/WindowTitle</item>
+		<item name="android:windowTitleBackgroundStyle">@style/TitleBarBackground</item>
+		<item name="android:windowContentOverlay">@null</item>
+	</style>
+</resources>

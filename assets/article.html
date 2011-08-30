@@ -1,0 +1,36 @@
+<!DOCTYPE html >
+<html>
+<head>
+    <meta charset="utf-8" />
+    <style>
+        body {background:#E5ECF4;margin:1em 0.5em;}
+
+        #title {margin:0.3em 0;font-size:18px;font-weight:bold;text-align:center;}
+        #meta {padding:0.5em 0;margin-bottom:1em;border-bottom:1px solid #369;text-align:center;}
+        #content {color:#444;font-size:16px;line-height:160%;word-break:break-all;}
+        #content * {max-width:100%;}
+
+    </style>
+    <script>
+        //检测旋转方向
+        (function(){var e=typeof window.orientation=="number"&&typeof window.onorientationchange=="object",f=document.body;function c(){c=e?function(){var d=window.orientation;switch(d){case 90:case -90:d="landscape";break;default:d="portrait"}f.setAttribute("class",d)}:function(){f.setAttribute("class",window.innerWidth>window.innerHeight?"landscape":"portrait")};c()}window.addEventListener("DOMContentLoaded",function(){c();e?window.addEventListener("orientationchange",c,false):setInterval(c,5E3)},false)})();
+
+        (function(undefined){
+            var body = document.body;
+        })();
+    </script>
+</head>
+<body>
+    <div id="article">
+        <h1 id="title">%title%</h1>
+        <div id="meta">
+             <span class="pubdate">%pubdate%</span>
+           <span class="topic">%topic%</span>
+        </div>
+        <div id="content">
+            %content%
+        </div>
+    </div>
+</body>
+</html>
+

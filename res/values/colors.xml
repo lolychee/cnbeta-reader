@@ -1,0 +1,7 @@
+
+    <resources>
+        <color name="articleBackground">#E5ECF4</color>
+        <color name="articlesListBackground">#E5ECF4</color>
+        <color name="articlesListDivider">#92c3de</color>
+        <color name="articlesListMetaTextColor">#999</color>
+    </resources>

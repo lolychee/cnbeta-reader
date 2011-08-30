@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="TitleBarBackground">
+		<item name="android:background">@drawable/titlebar_bg</item>
+	</style>
+
+	<style name="WindowTitle">
+		<item name="android:shadowColor">#BB000000</item>
+		<item name="android:shadowRadius">0</item>
+		<item name="android:textColor">#FFFFFF</item>
+	</style>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.lolychee.android.cnbetareader" android:versionCode="1"
+	android:versionName="1.0" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="8" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@style/Light">
+		<activity android:name=".activities.ArticlesListActivity" android:configChanges="keyboardHidden|orientation">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"></action>
+				<category android:name="android.intent.category.LAUNCHER"></category>
+			</intent-filter>
+		</activity>
+		<activity android:name=".activities.ArticleActivity" android:configChanges="keyboardHidden|orientation">
+		</activity>
+		<activity android:name=".activities.ArticleWrapperActivity" android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name=".activities.CommentsListActivity"></activity>
+
+	</application>
+</manifest>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">cnBeta悦读</string>
+    <string name="no_comments">暂无评论</string>
+    <string name="no_articles">暂无文章</string>
+    <string name="article_tab_article">原文</string>
+    <string name="article_tab_comments">评论</string>
+</resources>
